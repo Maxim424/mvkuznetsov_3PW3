@@ -9,9 +9,9 @@ import QuartzCore
 import UIKit
 
 extension CALayer {
-    func appplyShadow() {
+    func applyShadow() {
         self.shadowColor = UIColor.black.cgColor
-        self.shadowOpacity = 0.2
+        self.shadowOpacity = 0.1
         self.shadowOffset = .init(width: 1, height: 1)
         self.shadowRadius = 5
     }

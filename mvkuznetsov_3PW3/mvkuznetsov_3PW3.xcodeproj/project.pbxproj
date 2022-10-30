@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0161AF290D65C000449F0E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0161AE290D65C000449F0E /* UIColorExtension.swift */; };
 		4F1D211E2909368E0048C6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D211D2909368E0048C6CC /* AppDelegate.swift */; };
 		4F1D21202909368E0048C6CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D211F2909368E0048C6CC /* SceneDelegate.swift */; };
-		4F1D21222909368E0048C6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D21212909368E0048C6CC /* ViewController.swift */; };
 		4F1D21272909368F0048C6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D21262909368F0048C6CC /* Assets.xcassets */; };
 		4F1D212A2909368F0048C6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D21282909368F0048C6CC /* LaunchScreen.storyboard */; };
 		4F1D21352909368F0048C6CC /* mvkuznetsov_3PW3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D21342909368F0048C6CC /* mvkuznetsov_3PW3Tests.swift */; };
@@ -18,6 +18,9 @@
 		4F1D21562909429B0048C6CC /* CALayer+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D21532909429B0048C6CC /* CALayer+Shadow.swift */; };
 		4F1D21572909429B0048C6CC /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D21542909429B0048C6CC /* UIView+Pin.swift */; };
 		4F1D21582909429B0048C6CC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D21552909429B0048C6CC /* WelcomeViewController.swift */; };
+		4F8CC474290D477C00DE2F58 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CC473290D477C00DE2F58 /* ColorPaletteView.swift */; };
+		4F8CC476290D4FCC00DE2F58 /* ColorPaletteViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CC475290D4FCC00DE2F58 /* ColorPaletteViewExtention.swift */; };
+		4F8FDB99290E9327001F6519 /* ChangeColorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FDB98290E9327001F6519 /* ChangeColorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0161AE290D65C000449F0E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		4F1D211A2909368E0048C6CC /* mvkuznetsov_3PW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvkuznetsov_3PW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1D211D2909368E0048C6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1D211F2909368E0048C6CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F1D21212909368E0048C6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F1D21262909368F0048C6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F1D21292909368F0048C6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F1D212B2909368F0048C6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		4F1D21532909429B0048C6CC /* CALayer+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Shadow.swift"; sourceTree = "<group>"; };
 		4F1D21542909429B0048C6CC /* UIView+Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
 		4F1D21552909429B0048C6CC /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4F8CC473290D477C00DE2F58 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
+		4F8CC475290D4FCC00DE2F58 /* ColorPaletteViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteViewExtention.swift; sourceTree = "<group>"; };
+		4F8FDB98290E9327001F6519 /* ChangeColorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +114,13 @@
 				4F1D21552909429B0048C6CC /* WelcomeViewController.swift */,
 				4F1D211D2909368E0048C6CC /* AppDelegate.swift */,
 				4F1D211F2909368E0048C6CC /* SceneDelegate.swift */,
-				4F1D21212909368E0048C6CC /* ViewController.swift */,
 				4F1D21262909368F0048C6CC /* Assets.xcassets */,
 				4F1D21282909368F0048C6CC /* LaunchScreen.storyboard */,
 				4F1D212B2909368F0048C6CC /* Info.plist */,
+				4F8CC473290D477C00DE2F58 /* ColorPaletteView.swift */,
+				4F8CC475290D4FCC00DE2F58 /* ColorPaletteViewExtention.swift */,
+				4F0161AE290D65C000449F0E /* UIColorExtension.swift */,
+				4F8FDB98290E9327001F6519 /* ChangeColorProtocol.swift */,
 			);
 			path = mvkuznetsov_3PW3;
 			sourceTree = "<group>";
@@ -264,10 +273,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1D21572909429B0048C6CC /* UIView+Pin.swift in Sources */,
-				4F1D21222909368E0048C6CC /* ViewController.swift in Sources */,
 				4F1D21562909429B0048C6CC /* CALayer+Shadow.swift in Sources */,
 				4F1D21582909429B0048C6CC /* WelcomeViewController.swift in Sources */,
+				4F0161AF290D65C000449F0E /* UIColorExtension.swift in Sources */,
 				4F1D211E2909368E0048C6CC /* AppDelegate.swift in Sources */,
+				4F8FDB99290E9327001F6519 /* ChangeColorProtocol.swift in Sources */,
+				4F8CC474290D477C00DE2F58 /* ColorPaletteView.swift in Sources */,
+				4F8CC476290D4FCC00DE2F58 /* ColorPaletteViewExtention.swift in Sources */,
 				4F1D21202909368E0048C6CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,8 +454,7 @@
 				INFOPLIST_FILE = mvkuznetsov_3PW3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,8 +480,7 @@
 				INFOPLIST_FILE = mvkuznetsov_3PW3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
